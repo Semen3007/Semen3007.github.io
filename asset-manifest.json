@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/semen3007.github.io/static/css/main.3df4723e.css",
+    "main.css": "/semen3007.github.io/static/css/main.77ea03b4.css",
     "main.js": "/semen3007.github.io/static/js/main.204d602c.js",
     "static/media/Nekst-Bold.eot": "/semen3007.github.io/static/media/Nekst-Bold.753a7c4c084c718c0281.eot",
     "static/media/Nekst-Bold.ttf": "/semen3007.github.io/static/media/Nekst-Bold.cab6338caaec418b8de9.ttf",
@@ -111,11 +111,11 @@
     "static/media/Gilroy-Regular.woff2": "/semen3007.github.io/static/media/Gilroy-Regular.f6c9931fabe5a6eb3307.woff2",
     "static/media/Gilroy-Extrabold.woff2": "/semen3007.github.io/static/media/Gilroy-Extrabold.5c5942d3e4d9a9645df4.woff2",
     "index.html": "/semen3007.github.io/index.html",
-    "main.3df4723e.css.map": "/semen3007.github.io/static/css/main.3df4723e.css.map",
+    "main.77ea03b4.css.map": "/semen3007.github.io/static/css/main.77ea03b4.css.map",
     "main.204d602c.js.map": "/semen3007.github.io/static/js/main.204d602c.js.map"
   },
   "entrypoints": [
-    "static/css/main.3df4723e.css",
+    "static/css/main.77ea03b4.css",
     "static/js/main.204d602c.js"
   ]
 }
