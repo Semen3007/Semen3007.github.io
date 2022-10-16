@@ -1,0 +1,21 @@
+.container {
+  margin-top: 30px;
+  height: 100%;
+  display: grid;
+  grid-template-columns: repeat(4, 350px);
+  justify-content: space-evenly;
+  display: -ms-grid;
+  -ms-grid-columns:  25% 1fr 350px;
+  @media (max-width: 1300px) {
+    grid-template-columns: repeat(3, 350px);
+    -ms-grid-columns:  33% 1fr 350px;
+  }
+  @media (max-width: 1024px) {
+    grid-template-columns: repeat(2, 350px);
+    -ms-grid-columns:  50% 1fr 350px;
+  }
+  @media (max-width: 678px) {
+    grid-template-columns: repeat(1, 350px);
+    -ms-grid-columns:  100% 1fr 350px;
+  }
+}

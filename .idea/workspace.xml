@@ -4,8 +4,33 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c9f76ae2-be16-45e7-a66a-c9ab15325333" name="Changes" comment="add fetch POST">
-      <change beforePath="$PROJECT_DIR$/df" beforeDir="false" />
+    <list default="true" id="c9f76ae2-be16-45e7-a66a-c9ab15325333" name="Changes" comment="create 2 task">
+      <change afterPath="$PROJECT_DIR$/src/App.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/assets/db/Task1db.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ErrorNotification/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ItemCard/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ItemCard/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ListBlock/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/ListBlock/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/RepairList/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tabs/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/components/Tabs/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Task1/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Task1/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Task2/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Task2/index.module.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/pages/Task3/index.jsx" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/request/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/store/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/App.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/logo.svg" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -14,6 +39,13 @@
   </component>
   <component name="ComposerSettings">
     <execution />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+      </list>
+    </option>
   </component>
   <component name="FormatOnSaveOptions">
     <option name="myRunOnSave" value="true" />
@@ -26,7 +58,7 @@
     <option name="stateVersion" value="1" />
   </component>
   <component name="ProblemsViewState">
-    <option name="selectedTabId" value="ProjectErrors" />
+    <option name="selectedTabId" value="CurrentFile" />
   </component>
   <component name="ProjectId" id="2FTvmZ6PIFYtb4SJ11r8Mjgjn3I" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -58,9 +90,11 @@
       <recent name="D:\TestApp\semen3007.github.io\public" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\TestApp\semen3007.github.io\src\pages\Task3" />
+      <recent name="D:\TestApp\semen3007.github.io\src\pages\Task2" />
+      <recent name="D:\TestApp\semen3007.github.io\src\pages\task1" />
+      <recent name="D:\TestApp\semen3007.github.io\src\components\listBlock" />
       <recent name="D:\TestApp\semen3007.github.io\public" />
-      <recent name="D:\TestApp\semen3007.github.io" />
-      <recent name="D:\TestApp\semen3007.github.io\src\scss" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -74,7 +108,11 @@
       <workItem from="1664529048791" duration="2708000" />
       <workItem from="1664531802243" duration="3931000" />
       <workItem from="1664536384696" duration="71492000" />
-      <workItem from="1664802713700" duration="13878000" />
+      <workItem from="1664802713700" duration="15257000" />
+      <workItem from="1665568137155" duration="10704000" />
+      <workItem from="1665659823785" duration="10329000" />
+      <workItem from="1665673384007" duration="1918000" />
+      <workItem from="1665675431820" duration="27489000" />
     </task>
     <task id="LOCAL-00001" summary="create project">
       <created>1664530950268</created>
@@ -139,7 +177,14 @@
       <option name="project" value="LOCAL" />
       <updated>1664827159590</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="create react app">
+      <created>1665567009861</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1665567009861</updated>
+    </task>
+    <option name="localTasksCounter" value="11" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -162,7 +207,9 @@
     <MESSAGE value="create app" />
     <MESSAGE value="deploy github Pages" />
     <MESSAGE value="add fetch POST" />
-    <option name="LAST_COMMIT_MESSAGE" value="add fetch POST" />
+    <MESSAGE value="create react app" />
+    <MESSAGE value="create 2 task" />
+    <option name="LAST_COMMIT_MESSAGE" value="create 2 task" />
   </component>
   <component name="XSLT-Support.FileAssociations.UIState">
     <expand />
