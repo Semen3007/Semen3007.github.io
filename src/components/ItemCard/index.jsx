@@ -16,27 +16,29 @@ const ItemCard = observer(() => {
         store.getItemsAsync(id)
     }, [])
 
-    return (<div className={styles.container}>
-        {store.status === "initial" ? <div><Spin tip='Loading...'/></div> : store.status === 'error' ?
-            <ErrorNotification/> :
-            <Card
-                style={{
-                    width: 500,
-                }}
-                cover={
-                    <img
-                        alt="example"
-                        src="https://cdn-icons-png.flaticon.com/512/36/36384.png?w=740&t=st=1665780371~exp=1665780971~hmac=26dc5cc5a88921e41ef2655aae10b88a80bbdd1f9537bd4eb24b9bc3223d5d2b"
-                    />
-                }
-                
+    if (store.status === "initial") {
+        return (<div className={styles.container}><Spin tip='Loading...'/></div>)
+    }
+    if (store.status === 'error') {
+        return (<ErrorNotification/>)
+    }
 
-            >
-                <Meta
-                    title={store.itemData.name}
-                    description={`${store.itemData.content}  ${store.itemData.price} руб.`}
+    return (<div className={styles.container}>
+        {<Card
+            cover={
+                <img
+                    alt="example"
+                    src="https://cdn-icons-png.flaticon.com/512/36/36384.png?w=740&t=st=1665780371~exp=1665780971~hmac=26dc5cc5a88921e41ef2655aae10b88a80bbdd1f9537bd4eb24b9bc3223d5d2b"
                 />
-            </Card>}
+            }
+
+
+        >
+            <Meta
+                title={store.itemData.name}
+                description={`${store.itemData.content}  ${store.itemData.price} руб.`}
+            />
+        </Card>}
     </div>)
 })
 export default ItemCard;

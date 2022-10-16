@@ -5,7 +5,7 @@ function ListBlock({header, options, text}) {
 
     return (
         <div className={styles.container}>
-            <h1>{header}</h1>
+            <h2>{header}</h2>
             <ul>{options.map(value => <li key={value}>{value}</li>)}</ul>
             <p>{text}</p>
 

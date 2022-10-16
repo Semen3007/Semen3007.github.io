@@ -5,8 +5,7 @@ class ServerRequest {
         const options = {
             method: "GET",
         }
-        const request = new Request(webApiUrl + "/" + urlParams, options);
-        const response = await fetch(request);
+        const response = await fetch(webApiUrl + "/" + urlParams, options);
         return response.json();
     }
 }

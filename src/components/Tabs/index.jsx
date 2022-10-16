@@ -22,7 +22,7 @@ const items = [
 const CustomTabs = () => (
 
     <Tabs
-        defaultActiveKey="2"
+        defaultActiveKey="1"
         centered
         items={items}
     />
